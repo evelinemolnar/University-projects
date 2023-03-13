@@ -1,0 +1,8 @@
+# ninja log v5
+524	589	1649939147201706627	lab6_7	c8f2bd71203ac1f
+1	803	1649939108943552033	CMakeFiles/lab6_7.dir/main.cpp.o	5423dae52474563f
+1	524	1649939147134334885	CMakeFiles/lab6_7.dir/Service.cpp.o	da4ceef1be945882
+3	906	1649939109050050006	CMakeFiles/lab6_7.dir/Repository.cpp.o	9d583718250aa8ea
+3	920	1649939109063655071	CMakeFiles/lab6_7.dir/Validator.cpp.o	3f059f8886fab8fc
+2	1074	1649939109218714403	CMakeFiles/lab6_7.dir/Console.cpp.o	63d7f5ff50b5ef59
+2	772	1649939108911850047	CMakeFiles/lab6_7.dir/Medicament.cpp.o	6cad59d90e43cf8

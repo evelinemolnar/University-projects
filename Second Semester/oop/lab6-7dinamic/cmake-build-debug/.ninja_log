@@ -1,0 +1,6 @@
+# ninja log v5
+1	788	1649939318268226846	CMakeFiles/lab6_7dinamic.dir/lab6-7dinamic/Masina.cpp.o	dfed29b0a2e96c93
+1	937	1649939318417155940	CMakeFiles/lab6_7dinamic.dir/lab6-7dinamic/RepoMasina.cpp.o	f5f31ab42d26cf7c
+2	941	1649939318421971088	CMakeFiles/lab6_7dinamic.dir/lab6-7dinamic/ValidatorMasina.cpp.o	11f712b77a028d7c
+1	1127	1649939318607887820	CMakeFiles/lab6_7dinamic.dir/lab6-7dinamic/UI.cpp.o	1a858d3a5c9068e3
+1	1223	1649939318704946747	CMakeFiles/lab6_7dinamic.dir/lab6-7dinamic/ServiceMasina.cpp.o	c72733a800a7ff09

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="620.0" scaleShape="false" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.socialnetwork.app.controllers.UserMainInterfaceController">
+    <children>
+        <SplitPane dividerPositions="0.502435064935065" focusTraversable="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" pickOnBounds="false" prefHeight="555.0" prefWidth="618.0" scaleShape="false" snapToPixel="false" style="-fx-background-color: #FFFFFF;">
+            <items>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="482.0" prefWidth="270.0" SplitPane.resizableWithParent="false">
+                    <children>
+                        <SplitPane fx:id="UserInfoPane" dividerPositions="0.2412008281573499" layoutX="-1.0" layoutY="-2.0" orientation="VERTICAL" prefHeight="555.0" prefWidth="309.0" scaleShape="false" style="-fx-background-color: FFFFFF;">
+                            <items>
+                                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="215.0" prefWidth="307.0" SplitPane.resizableWithParent="false">
+                                    <children>
+                                        <Label fx:id="connectedUserLabel" layoutX="94.0" layoutY="14.0" text="User name">
+                                            <font>
+                                                <Font size="14.0" />
+                                            </font>
+                              </Label>
+                                        <Label fx:id="emailUserLabel" layoutX="94.0" layoutY="41.0" prefHeight="17.0" prefWidth="148.0" text="Email" />
+                                        <ImageView fx:id="profileImageView" fitHeight="48.0" fitWidth="64.0" layoutX="14.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@Image/2437730f7e3a5705e205e67fa2cd1020.jpg" />
+                                 </image>
+                              </ImageView>
+                                        <Button fx:id="removeAccountButton" layoutX="32.0" layoutY="71.0" mnemonicParsing="false" onAction="#onRemoveAccountAction" prefHeight="29.0" prefWidth="124.0" text="Delete account">
+                                 <font>
+                                    <Font name="System Bold" size="13.0" />
+                                 </font></Button>
+                                        <Button fx:id="logoutButton" layoutX="193.0" layoutY="71.0" mnemonicParsing="false" onAction="#onLogoutButtonAction" prefHeight="29.0" prefWidth="76.0" text="LogOut">
+                                 <font>
+                                    <Font name="System Bold" size="13.0" />
+                                 </font></Button>
+                                    </children>
+                                </AnchorPane>
+                                <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="422.0" prefWidth="309.0">
+                                    <children>
+                                        <TableView fx:id="friendsTableView" layoutX="11.0" layoutY="14.0" prefHeight="316.0" prefWidth="288.0" AnchorPane.bottomAnchor="92.0">
+                                            <columns>
+                                                <TableColumn fx:id="friendNameColumn" prefWidth="121.99997353553772" text="Name" />
+                                                <TableColumn fx:id="friendsSinceColumn" prefWidth="165.76715087890625" text="Friends since" />
+                                            </columns>
+                                        </TableView>
+                              <Label layoutX="50.0" layoutY="325.0" prefHeight="45.0" prefWidth="211.0" text="Please select a friendship." />
+                                        <Button fx:id="removeFriendButton" layoutY="382.0" mnemonicParsing="false" onAction="#onRemoveFriendButton" prefHeight="26.0" prefWidth="195.0" text="Remove friend | Cancel request" />
+                              <Button fx:id="sendMessageButton" layoutX="199.0" layoutY="382.0" mnemonicParsing="false" onAction="#onUserFromUserMessageListClick" prefHeight="26.0" prefWidth="99.0" text="Messages" />
+                                    </children>
+                                </AnchorPane>
+                            </items>
+                        </SplitPane>
+                    </children>
+                </AnchorPane>
+                <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="555.0" prefWidth="303.0">
+                    <children>
+                        <AnchorPane fx:id="friendRequestsPane" layoutY="255.0" prefHeight="291.0" prefWidth="268.0">
+                     <children>
+                              <Button fx:id="addFriendshipButton" layoutX="146.0" layoutY="230.0" mnemonicParsing="false" onAction="#onAddFriendButton" text="Add friend" />
+                              <Button fx:id="refreshButton" layoutX="220.0" layoutY="199.0" mnemonicParsing="false" onAction="#update" text="⟲" />
+                              <TextField fx:id="searchUserTextField" layoutY="197.0" prefHeight="29.0" prefWidth="211.0" promptText="Search a user">
+                                  <font>
+                                      <Font name="Berlin Sans FB" size="15.0" />
+                                  </font>
+                              </TextField>
+                        <Label layoutX="14.0" layoutY="234.0" text="Please select an user." />
+                              <TableView fx:id="usersTable" layoutX="2.0" layoutY="-5.0" prefHeight="202.0" prefWidth="288.0">
+                                  <columns>
+                                      <TableColumn fx:id="firstNameColumn" prefWidth="75.0" text="First Name" />
+                                      <TableColumn fx:id="lastNameColumn" prefWidth="75.0" text="Last Name" />
+                                      <TableColumn fx:id="emailColumn" prefWidth="119.27737426757812" text="Email" />
+                                  </columns>
+                              </TableView>
+                     </children></AnchorPane>
+                          <ListView fx:id="friendRequestsListView" layoutX="9.0" layoutY="67.0" prefHeight="141.0" prefWidth="275.0" />
+                          <Label layoutX="46.0" layoutY="-15.0" text="Friend Requests" textFill="#e14bdc">
+                              <font>
+                                  <Font name="Zapfino" size="22.0" />
+                              </font>
+                          </Label>
+                          <HBox alignment="CENTER" layoutY="202.0" prefHeight="56.0" prefWidth="268.0" spacing="20.0">
+                     <children>
+                                  <Button fx:id="acceptFriendButton" mnemonicParsing="false" onAction="#onAcceptButton" prefHeight="37.0" prefWidth="78.0" style="-fx-background-color: #99FF99;" text="Accept" textFill="#218a2f" />
+                                  <Button fx:id="rejectFriendButton" mnemonicParsing="false" onAction="#onRejectFriendrequestButton" prefHeight="37.0" prefWidth="78.0" style="-fx-background-color: #FF9999;" text="Decline" textFill="#eb0808">
+                           <effect>
+                              <Blend />
+                           </effect>
+                        </Button>
+                     </children>
+                          </HBox>
+                  <VBox fx:id="chatPane" layoutX="3.0" layoutY="7.0" prefHeight="555.0" prefWidth="303.0">
+                     <children>
+                        <TableView fx:id="chatTable" prefHeight="443.0" prefWidth="308.0">
+                          <columns>
+                            <TableColumn fx:id="messageFromUserColumn" prefWidth="153.0" text="from" />
+                            <TableColumn fx:id="messageToUserColumn" prefWidth="149.0" text="to" />
+                          </columns>
+                        </TableView>
+                        <TextField fx:id="messageTextField" prefHeight="33.0" prefWidth="303.0" />
+                        <Button fx:id="send" mnemonicParsing="false" onAction="#onSendMessageButton" prefHeight="26.0" prefWidth="298.0" text="Send" />
+                        <Button fx:id="backButton" mnemonicParsing="false" onAction="#setBackButton" prefHeight="26.0" prefWidth="58.0" text="Back" />
+                     </children>
+                  </VBox>
+                    </children>
+                </AnchorPane>
+            </items>
+        </SplitPane>
+    </children>
+</AnchorPane>
