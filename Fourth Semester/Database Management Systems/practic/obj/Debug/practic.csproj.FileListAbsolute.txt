@@ -1,0 +1,11 @@
+C:\Users\eveli\OneDrive\Desktop\anul2\sem2\SGBD\practic\bin\Debug\practic.exe.config
+C:\Users\eveli\OneDrive\Desktop\anul2\sem2\SGBD\practic\bin\Debug\practic.exe
+C:\Users\eveli\OneDrive\Desktop\anul2\sem2\SGBD\practic\bin\Debug\practic.pdb
+C:\Users\eveli\OneDrive\Desktop\anul2\sem2\SGBD\practic\obj\Debug\practic.csproj.AssemblyReference.cache
+C:\Users\eveli\OneDrive\Desktop\anul2\sem2\SGBD\practic\obj\Debug\practic.csproj.SuggestedBindingRedirects.cache
+C:\Users\eveli\OneDrive\Desktop\anul2\sem2\SGBD\practic\obj\Debug\practic.Form1.resources
+C:\Users\eveli\OneDrive\Desktop\anul2\sem2\SGBD\practic\obj\Debug\practic.Properties.Resources.resources
+C:\Users\eveli\OneDrive\Desktop\anul2\sem2\SGBD\practic\obj\Debug\practic.csproj.GenerateResource.cache
+C:\Users\eveli\OneDrive\Desktop\anul2\sem2\SGBD\practic\obj\Debug\practic.csproj.CoreCompileInputs.cache
+C:\Users\eveli\OneDrive\Desktop\anul2\sem2\SGBD\practic\obj\Debug\practic.exe
+C:\Users\eveli\OneDrive\Desktop\anul2\sem2\SGBD\practic\obj\Debug\practic.pdb

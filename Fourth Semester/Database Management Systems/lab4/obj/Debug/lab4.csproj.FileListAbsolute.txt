@@ -1,0 +1,13 @@
+C:\Users\eveli\OneDrive\Desktop\anul2\sem2\SGBD\lab4\bin\Debug\lab4.exe.config
+C:\Users\eveli\OneDrive\Desktop\anul2\sem2\SGBD\lab4\bin\Debug\lab4.exe
+C:\Users\eveli\OneDrive\Desktop\anul2\sem2\SGBD\lab4\bin\Debug\lab4.pdb
+C:\Users\eveli\OneDrive\Desktop\anul2\sem2\SGBD\lab4\obj\Debug\lab4.csproj.AssemblyReference.cache
+C:\Users\eveli\OneDrive\Desktop\anul2\sem2\SGBD\lab4\obj\Debug\lab4.csproj.SuggestedBindingRedirects.cache
+C:\Users\eveli\OneDrive\Desktop\anul2\sem2\SGBD\lab4\obj\Debug\lab4.Properties.Resources.resources
+C:\Users\eveli\OneDrive\Desktop\anul2\sem2\SGBD\lab4\obj\Debug\lab4.csproj.GenerateResource.cache
+C:\Users\eveli\OneDrive\Desktop\anul2\sem2\SGBD\lab4\obj\Debug\lab4.csproj.CoreCompileInputs.cache
+C:\Users\eveli\OneDrive\Desktop\anul2\sem2\SGBD\lab4\obj\Debug\lab4.exe
+C:\Users\eveli\OneDrive\Desktop\anul2\sem2\SGBD\lab4\obj\Debug\lab4.pdb
+C:\Users\eveli\OneDrive\Desktop\anul2\sem2\SGBD\lab4\bin\Debug\System.Data.SqlClient.dll
+C:\Users\eveli\OneDrive\Desktop\anul2\sem2\SGBD\lab4\bin\Debug\System.Data.SqlClient.xml
+C:\Users\eveli\OneDrive\Desktop\anul2\sem2\SGBD\lab4\obj\Debug\lab4.csproj.CopyComplete

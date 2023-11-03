@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: fff1e6;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.salesagency.controller.AgentController">
+   <children>
+      <TableView fx:id="productsTableView" layoutX="14.0" layoutY="114.0" onMouseClicked="#onSelectedItemTable" prefHeight="253.0" prefWidth="406.0" style="-fx-background-color: ffffff;">
+        <columns>
+          <TableColumn fx:id="denumireColumn" prefWidth="168.0" text="denumire" />
+          <TableColumn fx:id="cantitateColumn" prefWidth="121.0" text="cantitate" />
+            <TableColumn fx:id="pretColumn" prefWidth="116.0" text="pret" />
+        </columns>
+      </TableView>
+      <Label layoutX="14.0" layoutY="47.0" text="Lista produse">
+         <font>
+            <Font name="Georgia" size="18.0" />
+         </font></Label>
+      <Button fx:id="comandaButton" layoutX="439.0" layoutY="327.0" mnemonicParsing="false" onAction="#onPlaceOrderButtonAction" style="-fx-background-color: fad2e1;" text="Comanda" />
+      <Spinner fx:id="cantitateSpinner" layoutX="436.0" layoutY="268.0" />
+      <Label layoutX="439.0" layoutY="232.0" text="Cantitate">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="LogOutButton" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#onLogoutButtonAction" style="-fx-background-color: fad2e1;" text="Log Out" />
+      <Button fx:id="refreshButton" layoutX="563.0" layoutY="327.0" mnemonicParsing="false" onAction="#onRefresh" style="-fx-background-color: fad2e1;" text="↻" />
+   </children>
+</AnchorPane>
